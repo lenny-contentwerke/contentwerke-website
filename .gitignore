@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build-Output (wird mit `node build.js` erzeugt)
+dist/
+
+# Großes Quell-/Rohmaterial (nicht fürs Repo)
+Bilder/
+_research/
+assets/video/
+assets/seq_src/
+
+# Archive
+*.zip
+
+# Netlify / lokal
+.netlify/
+_gallery.html
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code (intern)
+.claude/
